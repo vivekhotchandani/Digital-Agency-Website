@@ -12,7 +12,7 @@ export default function Home() {
         <div className="relative h-[600px] w-5/6 flex items-center justify-center">
         
           <Image
-            src={"/img/hero.png"} 
+            src={"/img/Hero.png"} 
             alt="Hero Image"
             layout="fill"
             objectFit="cover"
