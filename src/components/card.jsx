@@ -1,4 +1,5 @@
 import React from "react";
+// This component renders a card with a title, content, and an optional image.
 
 export default function Card({ title, content, image }) {
   return (
@@ -12,6 +13,7 @@ export default function Card({ title, content, image }) {
             className=" w-full h-full object-cover"
             style={{ display: "block" }}
           />
+          
         ) : (
           <span className="text-gray-400">No Image Available</span>
         )}
